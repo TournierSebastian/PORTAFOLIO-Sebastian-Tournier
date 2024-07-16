@@ -1,0 +1,57 @@
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    25% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    75% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+
+.Profile {
+    width: 680px;
+    height: 420px;
+    border-radius: 20px;
+    padding: 15px; 
+    background: linear-gradient(45deg, #373737, #535353, #373737, #535353);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+    overflow: hidden; 
+
+}
+
+  
+.Profile-Title {
+    display: flex;
+    align-items: flex-end; 
+  }
+  
+.Profile-Title img {
+    margin-right: 10px; 
+    max-width: 180px; 
+    max-height: 180px; 
+  }
+  
+.Profile-Title h1 {
+    font-size: 45px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.Profile-Container{
+    font-size: 24px;
+    color: #f0eaea;
+    max-width: 500px;
+}
+.Profile-Container b{
+    font-size: 27px;
+    color: #ffffff;
+}

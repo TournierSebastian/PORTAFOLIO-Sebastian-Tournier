@@ -1,0 +1,23 @@
+
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color: #5E46EE; 
+    height: 100vh;
+  }
+
+@keyframes slideInFromLeft {
+    from {
+      transform: translatey(-100%); 
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0); 
+      opacity: 1; 
+    }
+  }
+
+  .App {
+    animation: slideInFromLeft 0.8s ease-out; 
+  }
+  

@@ -1,0 +1,11 @@
+.ThemeToggle {
+    background-color: #373737;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    margin-top: 50px;
+}

@@ -1,0 +1,25 @@
+.LanguageToggle {
+    background-color: #373737;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+
+}
+.LanguageToggle h1{
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 60px;
+}
+.LanguageToggle-Container {
+    display: flex;
+    
+}
+
+.LanguageToggle-Container h3 {
+    color: #FFFFFF;
+    margin: 5px;
+}
