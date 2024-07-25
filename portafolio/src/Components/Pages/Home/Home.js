@@ -15,6 +15,7 @@ const Home = () => {
       </div>
       </div>
       <div className='Home-Info-Container'>
+        
       <AgeDisplay/>
       </div>
       
