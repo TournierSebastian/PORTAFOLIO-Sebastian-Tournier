@@ -2,9 +2,11 @@ import React, { useContext } from 'react';
 import './AboutMe.css';
 import Profile from '../../Images/Profile.png';
 import { LeagueContext } from '../../Context/LeagueContext';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 const AboutMe = () => {
   const { League } = useContext(LeagueContext);
+  const {theme} = useContext(ThemeContext)
 
   const content = {
     es: {
@@ -28,7 +30,7 @@ const AboutMe = () => {
   const lang = League === 'EN' ? 'en' : 'es';
 
   return (
-    <div className='Profile'>
+    <div className={`Profile ${theme === 'Dark' ? 'Profile-Dark' : 'Profile-Light'}`}>
       <div className='Profile-Title'>
         <img src={Profile} alt="Profile" />
         <div>

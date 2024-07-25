@@ -16,19 +16,29 @@
     }
   }
 
-.Profile {
+  .Profile {
     width: 680px;
     height: 420px;
     border-radius: 20px;
-    padding: 15px; 
+    padding: 15px;
+    overflow: hidden;
+
+  }
+  
+  .Profile-Light {
+    background: linear-gradient(45deg, #575757, #686868, #575757, #686868);
+    background-size: 600% 600%;
+    animation: gradientAnimation 9s ease infinite;
+    color: rgb(0, 0, 0);
+  }
+  
+  .Profile-Dark {
     background: linear-gradient(45deg, #373737, #535353, #373737, #535353);
     background-size: 600% 600%;
-    animation: gradientAnimation 15s ease infinite;
-    overflow: hidden; 
+    animation: gradientAnimation 9s ease infinite;
+    color: white;
+  }
 
-}
-
-  
 .Profile-Title {
     display: flex;
     align-items: flex-end; 
@@ -36,22 +46,33 @@
   
 .Profile-Title img {
     margin-right: 10px; 
-    max-width: 180px; 
-    max-height: 180px; 
+    max-width: 280px; 
+    max-height: 190px; 
+    border-radius: 28px;
   }
   
 .Profile-Title h1 {
-    font-size: 45px;
+    font-size: 40px;
     margin: 0px;
     color: #FFFFFF;
 }
 
 .Profile-Container{
-    font-size: 24px;
+    font-size: 20px;
     color: #f0eaea;
     max-width: 500px;
 }
 .Profile-Container b{
     font-size: 27px;
     color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+  .Profile {
+    width: calc(100% - 30px); /* Ajusta el ancho para tener en cuenta el padding */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px; 
+  }
 }

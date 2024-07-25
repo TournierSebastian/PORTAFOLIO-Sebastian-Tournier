@@ -3,6 +3,7 @@ import AboutMe from '../../Cards/AboutMe/AboutMe'
 import "./Home.css"
 import LanguageToggle from '../../Cards/LanguageToggle/LanguageToggle'
 import ThemeToggle from '../../Cards/ThemeToggle/ThemeToggle'
+import AgeDisplay from '../../Cards/AgeDisplay/AgeDisplay'
 const Home = () => {
   return (
     <div className='Home'>
@@ -13,6 +14,11 @@ const Home = () => {
           <ThemeToggle />
       </div>
       </div>
+      <div className='Home-Info-Container'>
+      <AgeDisplay/>
+      </div>
+      
+
     </div>
   )
 }

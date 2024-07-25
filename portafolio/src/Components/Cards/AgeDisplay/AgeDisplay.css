@@ -1,0 +1,23 @@
+.AgeDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+.AgeDisplay p {
+    margin: 2px 0; 
+}
+
+
+.AgeDisplay-Dark {
+    background-color: #69249F;
+    color: white;
+}
+
+.AgeDisplay-Light {
+    background-color: #f5f5f5; 
+}

@@ -1,15 +1,27 @@
-.Home {
-    margin-top: 30px;
-    margin-left: 60px;
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
 }
-
 .Home-Intro {
     display: flex;
+    margin-top: 50px;
 }
 
 .Home-Intro-Container {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
+
     margin-left: 60px;
+}
+
+
+.Home-Info-Container {
+    margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .Home-Intro {
+        display: flex;
+        flex-direction: column;
+    }
 }

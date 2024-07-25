@@ -3,6 +3,8 @@ import './App.css';
 import ErrorPage from './Components/Pages/ErrorPage/ErrorPage';
 import Home from './Components/Pages/Home/Home';
 import { LeagueProvider } from './Components/Context/LeagueContext';
+import { ThemeContext, ThemeProvider } from './Components/Context/ThemeContext';
+import { useContext, useEffect } from 'react';
 
 const router = createBrowserRouter([
   {
@@ -13,20 +15,26 @@ const router = createBrowserRouter([
     path: "*",
     element: <ErrorPage />,
   },
-])
+]);
+
 const AppContent = () => {
+  const { theme } = useContext(ThemeContext);
+  useEffect(() => {
+    document.body.className = theme === 'Dark' ? 'dark-theme' : 'light-theme';
+  }, [theme]);
   return (
-    <div className='App'>
+    <div className={'App'}>
       <RouterProvider router={router} />
     </div>
   )
 }
 
-
 const App = () => (
-  <LeagueProvider>
-  <AppContent/>
-  </LeagueProvider>
+  <ThemeProvider>
+    <LeagueProvider>
+      <AppContent />
+    </LeagueProvider>
+  </ThemeProvider>
 );
 
 export default App;
