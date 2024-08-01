@@ -16,8 +16,8 @@
     }
   }
 
-  .Profile {
-    width: 680px;
+  .Profile { 
+    width: 720px;
     height: 420px;
     border-radius: 20px;
     padding: 15px;
@@ -43,7 +43,7 @@
     align-items: flex-end; 
   }
   
-.Profile-Title img {
+.Profile_img {
     margin-right: 10px; 
     max-width: 280px; 
     max-height: 190px; 
@@ -69,8 +69,8 @@
 
 @media (max-width: 768px) {
   .Profile {
-    width: calc(100% - 30px); /* Ajusta el ancho para tener en cuenta el padding */
-    height: calc(100% - 30px); /* Ajusta el ancho para tener en cuenta el padding */
+    width: calc(100% - 30px); 
+    height: calc(100% - 30px); 
     max-width: 100%;
     padding: 15px; 
   }
@@ -85,7 +85,7 @@
   }
 
   .Profile-Title h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px;
     color: #FFFFFF;
 }

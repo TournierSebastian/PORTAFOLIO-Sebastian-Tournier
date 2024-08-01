@@ -1,0 +1,43 @@
+.Linkedin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 240px;
+    height: 200px;
+    text-align: center;
+    margin-left: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Linkedin-Dark{
+    background-color: #2773BA;
+  }
+  .Linkedin-Light{
+    background-color: #2a79c4;
+
+  }
+  .Linkedin:hover {
+    transform: scale(1.1);
+  }
+  
+  .iconUrl {
+    margin-top: -10px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    width: 22px;
+    height: 22px;
+    align-self: flex-end;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .LinkedinIcon {
+    width: 210px;
+    height: 160px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .iconUrl:hover {
+    transform: scale(1.1);
+  }
+  

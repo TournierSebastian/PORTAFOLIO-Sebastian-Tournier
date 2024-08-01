@@ -9,13 +9,15 @@
 }
 
 .Home-Intro-Container {
-
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 
 .Home-Info-Container {
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
+   
 }
 
 
@@ -38,7 +40,7 @@
     
     .Home-Info-Container {
         display: flex; 
-        
+        flex-direction: column;
         
     }
 }

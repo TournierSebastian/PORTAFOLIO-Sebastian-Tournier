@@ -1,0 +1,23 @@
+.Technologies {
+  border-radius: 20px;
+  width: 240px;
+  height: 200px;
+  margin-left: 20px;
+  background-color: #22C807;
+  transition: transform 0.3s ease-in-out;
+}
+
+.TechnologiesIcon {
+  margin: 8px;
+  width: 43px;
+  height: 43px;
+  filter: brightness(0) invert(4);
+}
+
+.Technologies-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}

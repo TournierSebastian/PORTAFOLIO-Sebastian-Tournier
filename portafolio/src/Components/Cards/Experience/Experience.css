@@ -1,25 +1,25 @@
-.AgeDisplay {
+.Experience{
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
     width: 240px;
     height: 200px;
+    margin-left: 20px;
     text-align: center;
 }
-
-.AgeDisplay p {
+.Experience p {
     margin: 0px 0; 
 }
 
 
-.AgeDisplay-Dark {
-    background-color: #69249F;
+.Experience-Dark {
+    background-color: #855749;
     color: white;
 }
 
-.AgeDisplay-Light {
-    background-color: #7032a0; 
+.Experience-Light {
+    background-color: #a36b59; 
     color: white;
 
 }
