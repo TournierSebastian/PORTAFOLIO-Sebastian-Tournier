@@ -17,11 +17,12 @@
   }
 
   .Profile { 
-    width: 720px;
-    height: 420px;
+    
+    width: 1000px;
+    height: 500px;
     border-radius: 20px;
     padding: 15px;
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
   }
   
   .Profile-Light {
@@ -45,49 +46,90 @@
   
 .Profile_img {
     margin-right: 10px; 
-    max-width: 280px; 
-    max-height: 190px; 
+    max-width: 300px; 
+    max-height: 200px; 
     border-radius: 28px;
   }
   
 .Profile-Title h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin: 0px;
     color: #FFFFFF;
 }
 
 .Profile-Container{
-    font-size: 20px;
+    font-size: 30px;
     color: #f0eaea;
-    max-width: 500px;
+    max-width: 1100px;
 }
 .Profile-Container b{
-    font-size: 27px;
+    font-size: 37px;
     color: #ffffff;
 }
-
-
-@media (max-width: 768px) {
-  .Profile {
-    width: calc(100% - 30px); 
-    height: calc(100% - 30px); 
-    max-width: 100%;
-    padding: 15px; 
-  }
-}
-
-@media (max-width: 375px) {
-  .Profile {
-    width: calc(100% - 70px); 
-    max-width: 100%;
-    padding: 15px; 
+@media (max-width: 1300px) {
+  .Profile{
+    width: 75%;
+    height: 535px;
 
   }
 
+  .Profile_img {
+    max-width: 330px; 
+    max-height: 230px; 
+  }
   .Profile-Title h1 {
-    font-size: 25px;
-    margin: 0px;
-    color: #FFFFFF;
+    font-size: 60px;
+  }
+  .Profile-Container{
+  font-size: 27px;
+  }
+  .Profile-Container b{
+    font-size: 40px;
+  }
+} 
+
+@media (max-width: 992px) {
+  .Profile{
+    width: 90%;
+    height: 80%
+  }
+  .Profile_img {
+    max-width: 300px; 
+    max-height: 200px; 
+  }
+  .Profile-Title h1 {
+    font-size: 45px;
+  }
+  .Profile-Container{
+  font-size: 25px;
+  }
+  .Profile-Container b{
+    font-size: 33px;
+  }
 }
+
+
+
+@media (max-width: 480px) {
+  .Profile{
+    width: 80%;
+    height: 80%
+  }
+  .Profile_img {
+    max-width: 250px; 
+    max-height: 150px; 
+  }
+  .Profile-Title h1 {
+    font-size: 33px;
+  }
+  .Profile-Container{
+  font-size: 20px;
+  }
+  .Profile-Container b{
+    font-size: 23px;
+  }
 }
+
+
+
 

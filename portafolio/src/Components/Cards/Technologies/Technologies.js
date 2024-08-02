@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import './Technologies.css'
+import './../../Global.css';
 import  ReactIcon from '../../Images/ReactIcon.png'
 import  cssIcon from '../../Images/cssIcon.png'
 import  JavaScriptIcon from '../../Images/JavaScriptIcon.png'
@@ -19,7 +20,7 @@ const Technologies = () => {
   const {theme} = useContext(ThemeContext)
 
   return (
-    <div className={`Technologies ${theme === 'Dark' ? 'Technologies-Dark' : 'Technologies-Light'}`}>
+    <div className={`Technologies ${theme === 'Dark' ? 'Technologies-Dark' : 'Technologies-Light'} Card-Width`}>
       <div className='Technologies-Container'>
       <img src={ReactIcon} className='TechnologiesIcon'></img>
       <img src={cssIcon} className='TechnologiesIcon'></img>

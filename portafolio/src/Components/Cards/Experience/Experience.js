@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { ThemeContext } from '../../Context/ThemeContext';
 import { LeagueContext } from '../../Context/LeagueContext';
 import './Experience.css';
+import './../../Global.css';
 
 const Experience = () => {
   const { theme } = useContext(ThemeContext);
@@ -33,7 +34,7 @@ const Experience = () => {
   const lang = League === 'EN' ? 'en' : 'es';
 
   return (
-    <div className={`Experience ${theme === 'Dark' ? 'Experience-Dark' : 'Experience-Light'}`}>
+    <div className={`Experience ${theme === 'Dark' ? 'Experience-Dark' : 'Experience-Light'} Card-Width`}>
       <p style={{ fontSize: '80px' }}> +{Experience}</p>
       <p style={{ fontSize: '28px' }}>{content[lang].Experience}</p>
     </div>

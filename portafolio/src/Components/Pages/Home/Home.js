@@ -25,10 +25,9 @@ const Home = () => {
       <Experience/>
       </div>
       <div style={{display: 'flex'}}>
-      <AgeDisplay/>
-      <Linkedin/>
-      <Technologies/>
-      <Experience/>
+    
+   
+
       </div>
       </div>
       

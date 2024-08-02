@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { ThemeContext } from '../../Context/ThemeContext';
 import { LeagueContext } from '../../Context/LeagueContext';
 import './AgeDisplay.css';
-
+import './../../Global.css';
 const AgeDisplay = () => {
   const { theme } = useContext(ThemeContext);
   const { League } = useContext(LeagueContext);
@@ -35,7 +35,7 @@ const AgeDisplay = () => {
   const lang = League === 'EN' ? 'en' : 'es';
 
   return (
-    <div className={`AgeDisplay ${theme === 'Dark' ? 'AgeDisplay-Dark' : 'AgeDisplay-Light'}`}>
+    <div className={`AgeDisplay ${theme === 'Dark' ? 'AgeDisplay-Dark' : 'AgeDisplay-Light'} Card-Width`}>
       <p style={{ fontSize: '22px' }}>{content[lang].age}</p>
       <p style={{ fontSize: '60px' }} className='Age'>{age}</p>
       <p style={{ fontSize: '22px' }}>{content[lang].years}</p>

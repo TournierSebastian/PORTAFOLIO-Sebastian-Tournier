@@ -1,12 +1,13 @@
 .LanguageToggle {
     border-radius: 20px;
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 220px;  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s, color 0.3s;
+    padding: 10px;
   }
   
   .LanguageToggle-Light {
@@ -22,7 +23,7 @@
   
   .LanguageToggle h1 {
     margin: 0px;
-    font-size: 60px;
+    font-size: 90px;
   }
   
   .LanguageToggle-Container {
@@ -31,24 +32,56 @@
   
   .LanguageToggle-Container h3 {
     margin: 5px;
+    font-size: 30px;
   }
+  @media (max-width: 1300px) {
+    .LanguageToggle{
+      width: 200px;
+      height: 220px;
+    }
+  }
+
   @media (max-width: 1040px){
     .LanguageToggle {
-        margin-right: 100px;
-
+      width: 300px;
+    }
+    .LanguageToggle h1 {
+      font-size: 120px;
+    }
+    .LanguageToggle-Container h3 {
+      font-size: 40px;    
     }
 }
-
-  @media (max-width: 630px) { 
-    .LanguageToggle{
-        width: 200px ;
-        margin-right: 10px;
-    }
+@media (max-width: 992px) {
+  .LanguageToggle{
+      width: 230px ;
+      margin-right: 10px;
   }
-
-  @media (max-width: 375px) { 
+}
+@media (max-width: 510px) {
     .LanguageToggle{
         width: 150px ;
         margin-right: 10px;
     }
+    .LanguageToggle h1 {
+      font-size: 100px;
+    }
+    .LanguageToggle-Container h3 {
+      font-size: 30px;    
+    }
   }
+
+  @media (max-width: 480px) { 
+    .LanguageToggle{
+      width: 100px ;
+      margin-right: 10px;
+  }
+  .LanguageToggle h1 {
+    font-size: 80px;
+  }
+  .LanguageToggle-Container h3 {
+    font-size: 20px;    
+  }
+  }
+
+
