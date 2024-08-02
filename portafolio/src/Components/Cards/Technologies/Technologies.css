@@ -1,14 +1,15 @@
 .Technologies {
   border-radius: 20px;
   margin-left: 20px;
+  max-width: 450px;
   background-color: #22C807;
   transition: transform 0.3s ease-in-out;
 }
 
 .TechnologiesIcon {
-  margin: 8px;
-  width: 43px;
-  height: 43px;
+  margin: 1px;
+  width: 53px;
+  height: 53px;
   filter: brightness(0) invert(4);
 }
 
@@ -19,3 +20,55 @@
   flex-wrap: wrap;
   height: 100%;
 }
+
+@media (max-width: 990px) {  
+
+  .TechnologiesIcon {
+    width: 42px;
+    height: 42px;
+  }
+} 
+
+
+@media (max-width: 800px) {  
+
+  .TechnologiesIcon {
+    width: 45px;
+    height: 45px;
+  }
+} 
+@media (max-width: 680px) {  
+
+  .TechnologiesIcon {
+    width: 40px;
+    height: 40px;
+  }
+} 
+
+
+
+@media (max-width: 560px) {  
+
+  .TechnologiesIcon {
+    width: 35px;
+    height: 35px;
+  }
+} 
+
+@media (max-width: 480px) {  
+
+  .TechnologiesIcon {
+    width: 30px;
+    height: 30px;
+  }
+} 
+
+
+@media (max-width: 373px) {  
+
+  .TechnologiesIcon {
+    width: 20px;
+    height: 20px;
+  }
+} 
+

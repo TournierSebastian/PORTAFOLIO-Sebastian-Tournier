@@ -18,7 +18,7 @@
 
   .Profile { 
     
-    width: 1000px;
+    width: 830px;
     height: 500px;
     border-radius: 20px;
     padding: 15px;
@@ -66,27 +66,7 @@
     font-size: 37px;
     color: #ffffff;
 }
-@media (max-width: 1300px) {
-  .Profile{
-    width: 75%;
-    height: 535px;
 
-  }
-
-  .Profile_img {
-    max-width: 330px; 
-    max-height: 230px; 
-  }
-  .Profile-Title h1 {
-    font-size: 60px;
-  }
-  .Profile-Container{
-  font-size: 27px;
-  }
-  .Profile-Container b{
-    font-size: 40px;
-  }
-} 
 
 @media (max-width: 992px) {
   .Profile{

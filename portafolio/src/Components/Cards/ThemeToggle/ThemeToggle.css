@@ -52,20 +52,14 @@
     transform: translateX(calc(100% + 55px)); 
 }
 
-@media (max-width: 1300px) {
-    .ThemeToggle{
-      width: 200px;
-      height: 220px;
-      margin-top: 90px;
-    }
-
-  }
 
 @media (max-width: 1040px){
     .ThemeToggle {
-        width: 300px;
+        width: 280px;
+        height: 200px;  
         margin-top: 0px;
-   
+        margin-left: 30px;
+        
     }
     .button-container{
         width: 190px; 
@@ -84,7 +78,7 @@
 
 @media (max-width: 992px) {
     .ThemeToggle{
-        width: 230px ;
+        width: 200px ;
     }
   }
 
@@ -109,7 +103,8 @@
 
 @media (max-width: 480px) { 
     .ThemeToggle {
-        width: 100px ;
+        width: 130px;
+        height: 100px;  
     }
     .button-container{
         width: 100px; 

@@ -36,9 +36,9 @@ const AgeDisplay = () => {
 
   return (
     <div className={`AgeDisplay ${theme === 'Dark' ? 'AgeDisplay-Dark' : 'AgeDisplay-Light'} Card-Width`}>
-      <p style={{ fontSize: '22px' }}>{content[lang].age}</p>
-      <p style={{ fontSize: '60px' }} className='Age'>{age}</p>
-      <p style={{ fontSize: '22px' }}>{content[lang].years}</p>
+      <p >{content[lang].age}</p>
+      <h3 className='Age'>{age}</h3>
+      <p >{content[lang].years}</p>
     </div>
   );
 }

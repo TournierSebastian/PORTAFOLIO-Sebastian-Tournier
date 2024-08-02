@@ -34,16 +34,12 @@
     margin: 5px;
     font-size: 30px;
   }
-  @media (max-width: 1300px) {
-    .LanguageToggle{
-      width: 200px;
-      height: 220px;
-    }
-  }
 
   @media (max-width: 1040px){
     .LanguageToggle {
-      width: 300px;
+      width: 280px;
+      height: 200px;  
+
     }
     .LanguageToggle h1 {
       font-size: 120px;
@@ -54,7 +50,7 @@
 }
 @media (max-width: 992px) {
   .LanguageToggle{
-      width: 230px ;
+      width: 200px ;
       margin-right: 10px;
   }
 }
@@ -73,11 +69,13 @@
 
   @media (max-width: 480px) { 
     .LanguageToggle{
-      width: 100px ;
+      width: 130px;
+      height: 100px;  
+
       margin-right: 10px;
   }
   .LanguageToggle h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
   .LanguageToggle-Container h3 {
     font-size: 20px;    

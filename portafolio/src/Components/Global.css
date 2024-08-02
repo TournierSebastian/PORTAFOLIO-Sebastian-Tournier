@@ -1,20 +1,14 @@
 .Card-Width {
-    width: 240px;
+    width: 260px;
     height: 200px;
-    margin: 0 auto; 
+    margin: 10px; 
 }
 
-@media (max-width: 1040px) {
-    .Card-Width {
-        width: 80%;
-        height: 180px;
-    }
-}
 
 @media (max-width: 992px) {
     .Card-Width {
         width: 70%;
-        height: 170px;
+        height: 180px;
     }
 }
 
@@ -37,6 +31,7 @@
     .Card-Width {
         width: 40%;
         height: 140px;
+        margin: 5px;
 
     }
 }

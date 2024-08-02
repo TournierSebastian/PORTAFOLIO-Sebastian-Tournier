@@ -18,11 +18,16 @@ const Home = () => {
       </div>
       </div>
       <div className='Home-Info-Container'>
-      <div style={{display: 'flex', marginBottom: '30px'}}>
+      <div className='Cards'>
+      <div style={{display: 'flex', marginBottom: '20px'}}>
       <AgeDisplay/>
       <Linkedin/>
       <Technologies/>
-      <Experience/>
+      </div>
+      <div className='Responsive'> 
+        <Experience/>
+      </div>
+     
       </div>
       <div style={{display: 'flex'}}>
     

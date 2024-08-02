@@ -4,9 +4,16 @@
     justify-content: center;
     border-radius: 20px;
     text-align: center;
+    
 }
 
 .AgeDisplay p {
+    font-size: 25px;
+    margin: 0px 0; 
+}
+
+.AgeDisplay h3 {
+    font-size: 70px;
     margin: 0px 0; 
 }
 
@@ -23,5 +30,70 @@
 }
 
 
+@media (max-width: 992px) {
+    .AgeDisplay p {
+        font-size: 23px;
+        margin: 0px 0; 
+    }
+    
+    .AgeDisplay h3 {
+        font-size: 60px;
+        margin: 0px 0; 
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .AgeDisplay p {
+        font-size: 30px;
+        margin: 0px 0; 
+    }
+    
+    .AgeDisplay h3 {
+        font-size: 60px;
+        margin: 0px 0; 
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .AgeDisplay p {
+        font-size: 20px;
+        margin: 0px 0; 
+    }
+    
+    .AgeDisplay h3 {
+        font-size: 50px;
+        margin: 0px 0; 
+    }
+    
+}
+
+
+@media (max-width: 490px) {
+    .AgeDisplay p {
+        font-size: 15px;
+        margin: 0px 0; 
+    }
+    
+    .AgeDisplay h3 {
+        font-size: 30px;
+        margin: 0px 0; 
+    }
+    
+}
+
+@media (max-width: 360px) {
+    .AgeDisplay p {
+        font-size: 15px;
+        margin: 0px 0; 
+    }
+    
+    .AgeDisplay h3 {
+        font-size: 30px;
+        margin: 0px 0; 
+    }
+    
+}
   
   
