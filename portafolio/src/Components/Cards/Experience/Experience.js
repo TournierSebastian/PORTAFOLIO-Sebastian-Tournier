@@ -35,8 +35,8 @@ const Experience = () => {
 
   return (
     <div className={`Experience ${theme === 'Dark' ? 'Experience-Dark' : 'Experience-Light'} Card-Width`}>
-      <p style={{ fontSize: '80px' }}> +{Experience}</p>
-      <p style={{ fontSize: '28px' }}>{content[lang].Experience}</p>
+      <h3> +{Experience}</h3>
+      <p>{content[lang].Experience}</p>
     </div>
   );
 }

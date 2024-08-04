@@ -17,12 +17,12 @@
   }
 
   .Profile { 
-    
-    width: 830px;
-    height: 500px;
+    width: 850px;
+    height: 530px;
     border-radius: 20px;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    
   }
   
   .Profile-Light {
@@ -66,50 +66,115 @@
     font-size: 37px;
     color: #ffffff;
 }
-
-
-@media (max-width: 992px) {
+/* @media (max-width: 1280px) {
   .Profile{
-    width: 90%;
-    height: 80%
+    width: 64%;
+    height: 500px;
   }
   .Profile_img {
-    max-width: 300px; 
+    max-width: 350px; 
     max-height: 200px; 
   }
   .Profile-Title h1 {
     font-size: 45px;
   }
   .Profile-Container{
+  font-size: 28px;
+  }
+  .Profile-Container b{
+    font-size: 32px;
+  }
+} */
+
+@media (max-width: 1040px) {
+  .Profile{
+    width: 90%;
+    height: 350px;
+  }
+  .Profile_img {
+    max-width: 350px; 
+    max-height: 160px; 
+  }
+  .Profile-Title h1 {
+    font-size: 40px;
+  }
+  .Profile-Container{
   font-size: 25px;
   }
   .Profile-Container b{
-    font-size: 33px;
+    font-size: 30px;
   }
 }
 
-
-
-@media (max-width: 480px) {
+@media (max-width: 860px) {
   .Profile{
-    width: 80%;
-    height: 80%
+    width: 90%;
+    height: 350px;
   }
   .Profile_img {
-    max-width: 250px; 
+    max-width: 350px; 
+    max-height: 140px; 
+  }
+  .Profile-Title h1 {
+    font-size: 37px;
+  }
+  .Profile-Container{
+  font-size: 22px;
+  }
+  .Profile-Container b{
+    font-size: 28px;
+  }
+}
+@media (max-width: 620px) {
+  .Profile_img {
+    max-width: 340px; 
+    max-height: 130px; 
+  }
+  .Profile-Title h1 {
+    font-size: 35px;
+  }
+  .Profile-Container{
+  font-size: 20px;
+  }
+  .Profile-Container b{
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .Profile_img {
+    max-width: 230px; 
     max-height: 150px; 
   }
   .Profile-Title h1 {
     font-size: 33px;
   }
   .Profile-Container{
-  font-size: 20px;
+  font-size: 17px;
   }
   .Profile-Container b{
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
 
+
+@media (max-width: 360px) {
+
+  .Profile_img {
+    max-width: 200px; 
+    max-height: 130px; 
+  }
+  .Profile-Title h1 {
+    font-size: 30px;
+  }
+  .Profile-Container{
+  font-size: 16px;
+  }
+  .Profile-Container b{
+    font-size: 20px;
+  }
+}
 
 

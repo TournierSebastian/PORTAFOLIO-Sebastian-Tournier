@@ -6,10 +6,9 @@ body {
     background-color: #5E46EE; 
     background-size: cover;
     font-family: 'Fira Sans', sans-serif;
-    height: 100vh;
     display: flex;
     justify-content: center;
-
+    margin-bottom: 1000px;
   }
 .dark-theme {
     background-color: #5E46EE; 

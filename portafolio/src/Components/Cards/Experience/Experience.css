@@ -2,14 +2,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 20px;
-    margin-left: 20px;
     text-align: center;
+
 }
 .Experience p {
+    font-size: 28px;
     margin: 0px 0; 
 }
 
+.Experience h3 {
+    font-size: 80px;
+    margin: 0px 0; 
+}
 
 .Experience-Dark {
     background-color: #855749;
@@ -21,3 +25,90 @@
     color: white;
 
 }
+
+/* @media (max-width: 1280px) {
+    .Experience {
+        width: 140px;
+    }
+    .Experience p{
+        font-size: 20px;
+    }
+    
+    .Experience h3 {
+        font-size: 60px;
+    }
+    
+} */
+
+@media (max-width: 1040px) {
+    .Experience {
+        width: 140px;
+        }
+    .Experience p{
+        font-size: 20px;
+    }
+    
+    .Experience h3 {
+        font-size: 60px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .Experience{
+        height: 180px;
+    }
+    .Experience p {
+        font-size: 25px;
+    }
+    
+    .Experience h3 {
+        font-size: 60px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .Experience p {
+        font-size: 20px;
+    }
+    
+    .Experience h3 {
+        font-size: 50px;
+    }
+    
+}
+
+
+@media (max-width: 490px) {
+    .Experience {
+        height: 160px;
+        width: 80px;
+    }
+    .Experience p {
+        font-size: 15px;
+    }
+    
+    .Experience h3 {
+        font-size: 50px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    .Experience {
+        height: 150px;
+       
+    }
+    .Experience p {  
+        font-size: 15px;
+    }
+    
+    .Experience h3 {
+        font-size: 30px;
+    }
+    
+}
+  
+  
+  

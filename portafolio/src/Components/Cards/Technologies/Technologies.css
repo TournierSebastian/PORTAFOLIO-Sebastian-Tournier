@@ -1,5 +1,4 @@
 .Technologies {
-  border-radius: 20px;
   margin-left: 20px;
   max-width: 450px;
   background-color: #22C807;
@@ -56,6 +55,9 @@
 } 
 
 @media (max-width: 480px) {  
+  .Technologies {
+    margin-left: 0px;
+  }
 
   .TechnologiesIcon {
     width: 30px;
@@ -67,8 +69,8 @@
 @media (max-width: 373px) {  
 
   .TechnologiesIcon {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
   }
 } 
 

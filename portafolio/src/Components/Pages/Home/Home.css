@@ -1,11 +1,11 @@
 .Home{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;    
 }
 .Home-Intro {
     display: flex;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .Home-Intro-Container {
@@ -14,15 +14,15 @@
 
 
 .Home-Info-Container {
-    display: flex;
-    flex-direction: column;
     margin-top: 30px;
    
 }
 .Cards{
     display: flex;
 }
-
+.hide-experience-responsive{
+    display: none;
+}
 
 @media (max-width: 1040px) {
     .Home {
@@ -38,19 +38,18 @@
     .Home-Intro-Container {
         display: flex;
         margin-left: 0; 
-        margin-top: 30px;
+        margin-top: 10px;
     }
     
-    .Home-Info-Container {
-        display: flex; 
-        flex-direction: column;
-        
-    }
 }
 
 @media (max-width: 800px) {
-    .Cards{
-        display: flex;
-        flex-direction: column;
+    .hide-experience{
+        display: none;
     }
+
+    .hide-experience-responsive{
+        display: block;
+    }
+
 }
