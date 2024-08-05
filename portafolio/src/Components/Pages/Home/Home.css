@@ -20,7 +20,7 @@
 .Cards{
     display: flex;
 }
-.hide-experience-responsive{
+.display-responsive{
     display: none;
 }
 
@@ -44,11 +44,11 @@
 }
 
 @media (max-width: 800px) {
-    .hide-experience{
+    .hide-responsive{
         display: none;
     }
 
-    .hide-experience-responsive{
+    .display-responsive{
         display: block;
     }
 

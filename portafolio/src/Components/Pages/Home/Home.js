@@ -8,6 +8,7 @@ import Linkedin from '../../Cards/Linkedin/Linkedin'
 import Technologies from '../../Cards/Technologies/Technologies'
 import Experience from '../../Cards/Experience/Experience'
 import GitHub from '../../Cards/GitHub/GitHub'
+import Projects from '../../Cards/Projects/Projects'
 const Home = () => {
   return (
     <div className='Home'>
@@ -26,16 +27,24 @@ const Home = () => {
           <AgeDisplay />
           <Linkedin />
           <Technologies />
-          <div className='hide-experience'>
+          <div className='hide-responsive'>
             <Experience />
           </div>
         </div>
-        
+
         <div style={{ display: 'flex', marginBottom: '20px' }}>
-          <div className='hide-experience-responsive'>
+          <div className='display-responsive'>
             <Experience />
           </div>
           <GitHub />
+          <div className='hide-responsive'>
+          <Projects/>
+          </div>
+        </div>
+        <div style={{ display: 'flex', marginBottom: '20px' }}>
+        <div className='display-responsive'>
+            <Projects />
+        </div>
         </div>
 
       </div>
