@@ -1,0 +1,209 @@
+/* Climate.css */
+
+.climate-container {
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  width: 500px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  margin: 10px; 
+}
+
+.weather-icon {
+  margin: 0;
+  padding: 0;
+  width: 65px;
+  height: 65px;
+}
+
+.climate-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.climate-info h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+.climate-info h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.climate-info p {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.Image-Climate {
+  width: 170px;
+  height: 170px;
+}
+
+.sunny {
+  background-color: rgb(223, 144, 41);
+}
+
+.cloudy {
+  background-color: rgb(168, 164, 159);
+}
+
+.rainy {
+  background-color: rgb(151, 165, 173);
+}
+
+.snowy {
+  background-color: rgb(212, 221, 226);
+}
+
+@media (max-width: 800px) {
+  .climate-container {
+    width: 70%;
+    height: 160px;
+    margin-left: 20px;
+  }
+
+  .climate-info h1 {
+    font-size: 40px;
+  }
+
+  .climate-info h3 {
+    font-size: 28px;
+  }
+
+  .climate-info p {
+    font-size: 20px;
+  }
+
+  .Image-Climate {
+    width: 130px;
+    height: 130px;
+  }
+
+  .weather-icon {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 650px) {
+  .climate-container {
+    width: 60%;
+  }
+
+  .climate-info h1 {
+    font-size: 35px;
+  }
+
+  .climate-info h3 {
+    font-size: 25px;
+  }
+
+  .climate-info p {
+    font-size: 15px;
+  }
+
+  .Image-Climate {
+    width: 110px;
+    height: 110px;
+  }
+
+  .weather-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 590px) {
+  .climate-info {
+    margin-top: 0; 
+  }
+
+
+  .climate-info h1 {
+    font-size: 30px;
+  }
+
+  .climate-info h3 {
+    font-size: 22px;
+  }
+
+  .climate-info p {
+    font-size: 15px;
+  }
+
+  .Image-Climate {
+    width: 100px;
+    height: 100px;
+  }
+
+  .weather-icon {
+    width: 37px;
+    height: 37px;
+  }
+}
+
+@media (max-width: 510px) {
+  .climate-info h1 {
+    font-size: 30px; 
+  }
+
+  .climate-info h3 {
+    font-size: 20px; 
+  }
+
+  .climate-info p {
+    font-size: 18px;
+  }
+
+  .Image-Climate {
+    width: 80px; 
+    height: 80px; 
+  }
+
+  .weather-icon {
+    width: 30px; 
+    height: 30px; 
+  }
+}
+
+
+@media (max-width: 470px) {
+  .climate-container {
+    background-image: url('../../Images/Cllima.gif'); /* Reemplaza con la ruta correcta de tu imagen */
+    background-size: 50% auto; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat;
+  
+  }
+
+  .Image-Climate {
+    display: none;
+  }
+}
+
+@media (max-width: 350px){
+  .climate-info h1 {
+    font-size: 28px; 
+  }
+
+  .climate-info h3 {
+    font-size: 18px; 
+  }
+
+  .climate-info p {
+    font-size: 15px; 
+  }
+
+  .weather-icon {
+    width: 20px; 
+    height: 20px;
+  }
+}

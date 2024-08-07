@@ -9,6 +9,7 @@ import Technologies from '../../Cards/Technologies/Technologies'
 import Experience from '../../Cards/Experience/Experience'
 import GitHub from '../../Cards/GitHub/GitHub'
 import Projects from '../../Cards/Projects/Projects'
+import Climate from '../../Cards/Climate/Climate'
 const Home = () => {
   return (
     <div className='Home'>
@@ -23,7 +24,7 @@ const Home = () => {
 
       <div className='Home-Info-Container'>
 
-        <div style={{ display: 'flex', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', marginBottom: '10px' }}>
           <AgeDisplay />
           <Linkedin />
           <Technologies />
@@ -32,7 +33,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div style={{ display: 'flex', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', marginBottom: '10px' }}>
           <div className='display-responsive'>
             <Experience />
           </div>
@@ -41,10 +42,11 @@ const Home = () => {
           <Projects/>
           </div>
         </div>
-        <div style={{ display: 'flex', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', marginBottom: '10px' }}>
         <div className='display-responsive'>
             <Projects />
         </div>
+        <Climate/>
         </div>
 
       </div>

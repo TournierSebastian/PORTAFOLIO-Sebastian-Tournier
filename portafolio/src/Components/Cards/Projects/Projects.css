@@ -1,7 +1,7 @@
 .Projects {
     display: block; 
     width: 470px;
-    height: 220px;
+    height: 200px;
     background: url('../../Images/Projects.gif');
     margin: 10px;
     color: white; 
@@ -20,11 +20,11 @@
     margin: 0;
     padding-top: 15px;
     margin-bottom: 80px;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .Projects p {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 320px;
     color: rgb(231, 229, 229);
     margin-left: 20px;
@@ -84,4 +84,22 @@
     }
 
 
+}
+
+@media (max-width: 485px) {
+
+    .Projects h2 {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .Projects p {
+        font-size: 15px;
+    }
+
+    .iconUrl-Projects {
+        width: 20px;
+        height: 20px;
+
+    }
+    
 }
