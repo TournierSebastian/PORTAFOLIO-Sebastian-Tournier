@@ -16,7 +16,7 @@ import Location from '../../Cards/Location/Location'
 import Discord from '../../Cards/Discord/Discord'
 const Home = () => {
   return (
-    <div className='Home'>
+    <div className='Home' style={{marginBottom: '400px'}}>
 
       <div className="Home-Intro">
         <AboutMe />
@@ -53,6 +53,7 @@ const Home = () => {
           </div>
           <Climate />
           <div className='hide-responsive'>
+
             <Email />
             <Phone />
           </div>
@@ -62,18 +63,26 @@ const Home = () => {
           <div className='display-responsive'>
             <Email />
             <Phone />
+            <Location />
           </div>
 
-          <div style={{ display: 'flex', marginBottom: '10px' }}>
-              <Location/>
-              <Discord/>
-          </div>
-
+          <div className='hide-responsive'>
+            <Location />
+            <Discord />
           </div>
         </div>
 
+        <div className='display-responsive'>
+        
+            <Discord />
+          
+
+        </div>
+
       </div>
-      )
+
+    </div>
+  )
 }
 
-      export default Home
+export default Home

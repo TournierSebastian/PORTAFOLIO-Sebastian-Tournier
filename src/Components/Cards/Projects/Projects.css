@@ -43,6 +43,7 @@
 @media (max-width: 1080px) {
     .Projects {
         width: 96%;
+
     }
 
     .Projects h2 {
@@ -60,6 +61,7 @@
 
 @media (max-width: 1040px) {
     .Projects{
+        width: 100%;
         height: 178px;
     }
 

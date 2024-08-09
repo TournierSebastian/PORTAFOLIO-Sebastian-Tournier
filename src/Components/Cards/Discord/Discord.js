@@ -6,7 +6,7 @@ const Discord = () => {
     const { theme } = useContext(ThemeContext);
 
     return (
-        <div className={`Discord ${theme === 'Dark' ? 'Discord-Dark' : 'Discord-Light'} Card-Width`} >
+        <div className={`Discord ${theme === 'Dark' ? 'Discord-Dark' : 'Discord-Light'}`} >
 
             <img src={DiscordImage} className='DiscordImage' alt="Email" ></img>
             <p>Tournier206#0567</p>

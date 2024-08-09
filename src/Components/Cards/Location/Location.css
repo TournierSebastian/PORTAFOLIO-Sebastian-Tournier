@@ -1,0 +1,54 @@
+.Location-Width {
+    width: 250px;
+    height: 200px;
+    margin: 10px; 
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+@media (max-width: 1040px) {
+    .Location-Width {
+        width: 25%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Location-Width {
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Location-Width {
+     
+        height: 155px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Location-Width {
+        width: 40%;
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .Location-Width {
+        width: 35%;
+        height: 134px;
+        margin: 5px; 
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    .Location-Width {
+        width: 30%;
+        height: 125px;
+        
+    }
+}
