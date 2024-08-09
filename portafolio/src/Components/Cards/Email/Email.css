@@ -1,0 +1,38 @@
+.Email {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+
+.Email:hover{
+    transform: scale(1.1);
+}
+
+.Email-Dark{
+    background-color: #CFB630;
+}
+
+.Email-Light{
+    background-color: #cfb93c;
+}
+
+
+.EmailImage{
+    width: 80%;
+    height: 70%;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.iconUrl-Email {
+    width: 25px;
+    height: 25px;
+    position: absolute; 
+    top: 5px; 
+    right: 5px; 
+    
+}

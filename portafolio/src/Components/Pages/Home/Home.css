@@ -23,7 +23,9 @@
 .display-responsive{
     display: none;
 }
-
+.hide-responsive{
+    display: flex;
+}
 @media (max-width: 1040px) {
     .Home {
         display: flex;
@@ -49,7 +51,7 @@
     }
 
     .display-responsive{
-        display: block;
+        display: flex;
     }
 
 }

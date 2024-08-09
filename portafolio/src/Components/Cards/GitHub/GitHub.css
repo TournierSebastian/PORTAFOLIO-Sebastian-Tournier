@@ -9,6 +9,7 @@
     position: relative;
     padding: 5px; 
     border-radius: 20px;
+    overflow: hidden;
     transition: transform 0.3s ease-in-out;
 }
 .GitHub:hover{
@@ -139,10 +140,5 @@
 
 
 
-@media (max-width: 360px) {
-    .GitHub {
-        height: 130px;
 
-    }
-}
 

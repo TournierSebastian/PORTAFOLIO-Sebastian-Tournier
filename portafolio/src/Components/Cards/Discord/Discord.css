@@ -1,0 +1,32 @@
+.Discord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.Discord p{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(192, 192, 192);
+}
+
+
+.Discord-Dark{
+    background-color: #4B4945;
+}
+
+.Discord-Light{
+    background-color: #64625c;
+}
+
+
+.DiscordImage{
+    width: 70%;
+    height: 70%;
+    transition: transform 0.3s ease-in-out;
+}
+

@@ -56,13 +56,26 @@
 }
 
 .rainy {
-  background-color: rgb(151, 165, 173);
+  background-color: rgb(151, 167, 177);
 }
 
 .snowy {
   background-color: rgb(212, 221, 226);
 }
+.dusty{
+  background-color: rgb(134, 134, 134);
 
+}
+.misty{
+  background-color: rgb(92, 92, 92);
+}
+
+@media (max-width: 1040px) {
+  .climate-container {
+    height: 160px;
+  }
+
+}
 @media (max-width: 800px) {
   .climate-container {
     width: 70%;

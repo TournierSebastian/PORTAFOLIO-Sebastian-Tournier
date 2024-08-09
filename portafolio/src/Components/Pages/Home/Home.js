@@ -10,6 +10,10 @@ import Experience from '../../Cards/Experience/Experience'
 import GitHub from '../../Cards/GitHub/GitHub'
 import Projects from '../../Cards/Projects/Projects'
 import Climate from '../../Cards/Climate/Climate'
+import Email from '../../Cards/Email/Email'
+import Phone from '../../Cards/Phone/Phone'
+import Location from '../../Cards/Location/Location'
+import Discord from '../../Cards/Discord/Discord'
 const Home = () => {
   return (
     <div className='Home'>
@@ -39,20 +43,37 @@ const Home = () => {
           </div>
           <GitHub />
           <div className='hide-responsive'>
-          <Projects/>
+            <Projects />
           </div>
         </div>
+
         <div style={{ display: 'flex', marginBottom: '10px' }}>
-        <div className='display-responsive'>
+          <div className='display-responsive'>
             <Projects />
+          </div>
+          <Climate />
+          <div className='hide-responsive'>
+            <Email />
+            <Phone />
+          </div>
         </div>
-        <Climate/>
+
+        <div style={{ display: 'flex', marginBottom: '10px' }}>
+          <div className='display-responsive'>
+            <Email />
+            <Phone />
+          </div>
+
+          <div style={{ display: 'flex', marginBottom: '10px' }}>
+              <Location/>
+              <Discord/>
+          </div>
+
+          </div>
         </div>
 
       </div>
-
-    </div>
-  )
+      )
 }
 
-export default Home
+      export default Home

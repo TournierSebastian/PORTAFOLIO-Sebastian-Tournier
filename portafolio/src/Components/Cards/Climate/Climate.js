@@ -32,8 +32,12 @@ const Climate = () => {
         const condition = weather.weather[0].main.toLowerCase();
         if (condition.includes('clear') || condition.includes('sun')) return 'sunny';
         if (condition.includes('cloud')) return 'cloudy';
-        if (condition.includes('rain')) return 'rainy';
+        if (condition.includes('rain') || condition.includes('drizzle')) return 'rainy';
         if (condition.includes('snow')) return 'snowy';
+        if (condition.includes('thunderstorm')) return 'thunderstorm';
+        if (condition.includes('mist') || condition.includes('fog') || condition.includes('haze')) return 'misty';
+        if (condition.includes('dust')) return 'dusty';
+
         return '';
     };
 

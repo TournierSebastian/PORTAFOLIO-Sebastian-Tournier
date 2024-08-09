@@ -1,0 +1,38 @@
+.Phone {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+
+.Phone:hover{
+    transform: scale(1.1);
+}
+
+.Phone-Dark{
+    background-color: #3A9C0C;
+}
+
+.Phone-Light{
+    background-color: #40b10c;
+}
+
+
+.PhoneImage{
+    width: 80%;
+    height: 80%;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.iconUrl-Phone {
+    width: 25px;
+    height: 25px;
+    position: absolute; 
+    top: 5px; 
+    right: 5px; 
+    
+}
