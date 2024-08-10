@@ -18,7 +18,7 @@ import Instagram from '../../Cards/Instagram/Instagram'
 import Currículum from '../../Cards/Currículum/Currículum'
 const Home = () => {
   return (
-    <div className='Home' style={{marginBottom: '400px'}}>
+    <div className='Home'>
 
       <div className="Home-Intro">
         <AboutMe />
