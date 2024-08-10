@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import iconUrl from '../../Images/IconUrl.png'
-import iconGitHub from '../../Images/GitHub.png'
+import iconUrl from '../../Download/Images/IconUrl.png'
+import iconGitHub from '../../Download/Images/GitHub.png'
 import './GitHub.css'
 import { LeagueContext } from '../../Context/LeagueContext'
 const GitHub = () => {
@@ -27,7 +27,7 @@ const GitHub = () => {
       rel="noopener noreferrer"
     >
       <div>
-        <img src={iconUrl} className='iconUrl-GitHub'></img>
+        <img src={iconUrl} className='iconUrl'></img>
       </div>
       <div className='GitHub-Container'>
         <img src={iconGitHub} className='iconGitHub'></img>

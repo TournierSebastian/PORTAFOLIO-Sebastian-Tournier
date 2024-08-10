@@ -1,7 +1,7 @@
 // Projects.js
 import React, { useContext } from 'react'
 import "./Projects.css"
-import iconUrl from '../../Images/IconUrl.png'
+import iconUrl from '../../Download/Images/IconUrl.png'
 import { LeagueContext } from '../../Context/LeagueContext';
 
 const Projects = () => {
@@ -22,7 +22,7 @@ const Projects = () => {
       const lang = League === 'EN' ? 'en' : 'es';
   return (
     <a href='/MyProjects' className='Projects'>
-      <img src={iconUrl} className='iconUrl-Projects'></img>     
+      <img src={iconUrl} className='iconUrl'></img>     
       <h2>{content[lang].title}</h2>
       <p>{content[lang].description}</p>
     </a>

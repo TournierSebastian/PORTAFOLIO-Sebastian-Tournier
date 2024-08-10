@@ -7,6 +7,12 @@
 }
 
 
+@media (max-width: 1080px) {
+    .Location-Width {
+        width: 25%;
+    }
+}
+
 @media (max-width: 1040px) {
     .Location-Width {
         width: 25%;

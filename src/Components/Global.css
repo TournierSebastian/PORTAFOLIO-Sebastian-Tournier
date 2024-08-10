@@ -33,7 +33,14 @@
   }
   
 
-
+  .iconUrl{
+    width: 25px;
+    height:  25px;
+    position: absolute; 
+    top: 5px; 
+    right: 5px; 
+    
+}
 
 
 
@@ -50,6 +57,12 @@
         width: 70%;
         height: 180px;
     }
+
+    .iconUrl{
+        width: 22px;
+        height:  22px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -57,12 +70,17 @@
         width: 60%;
         height: 160px;
     }
+    
 }
 
 @media (max-width: 576px) {
     .Card-Width {
         width: 50%;
         height: 150px;
+    }
+    .iconUrl{
+        width: 20px;
+        height:  20px;
     }
 }
 
@@ -72,7 +90,10 @@
         width: 40%;
         height: 140px;
         margin: 5px;
-
+    }
+    .iconUrl{
+        width: 18px;
+        height:  18px;
     }
 }
 

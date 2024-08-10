@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import './Climate.css';
-import  Clima from '../../Images/Cllima.gif'
+
+import  Clima from '../../Download/Images/Cllima.gif';
 import { LeagueContext } from '../../Context/LeagueContext';
 const Climate = () => {
     const { League } = useContext(LeagueContext); // Accede al contexto para el idioma

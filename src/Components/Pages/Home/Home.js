@@ -14,6 +14,8 @@ import Email from '../../Cards/Email/Email'
 import Phone from '../../Cards/Phone/Phone'
 import Location from '../../Cards/Location/Location'
 import Discord from '../../Cards/Discord/Discord'
+import Instagram from '../../Cards/Instagram/Instagram'
+import Currículum from '../../Cards/Currículum/Currículum'
 const Home = () => {
   return (
     <div className='Home' style={{marginBottom: '400px'}}>
@@ -69,14 +71,15 @@ const Home = () => {
           <div className='hide-responsive'>
             <Location />
             <Discord />
+            <Instagram/>
+            <Currículum/>
           </div>
         </div>
 
         <div className='display-responsive'>
-        
             <Discord />
-          
-
+            <Instagram/>
+            <Currículum/>
         </div>
 
       </div>

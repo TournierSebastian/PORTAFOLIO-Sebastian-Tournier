@@ -6,6 +6,7 @@
     text-align: center;
     margin-left:  13px;
     transition: transform 0.3s ease-in-out;
+    position: relative;
   }
   
   .Linkedin-Dark{
@@ -19,23 +20,10 @@
     transform: scale(1.1);
   }
   
-  .iconUrl {
-    margin-top: 0px;
-    margin-right: 5px;
-    margin-bottom: 0px;
-    width: 8%;
-    height: 9%;
-    align-self: flex-end;
-    transition: transform 0.3s ease-in-out;
-  }
-  
   .LinkedinIcon {
     width: 90%;
     height: 80%;
     transition: transform 0.3s ease-in-out;
-  }
-  .iconUrl:hover {
-    transform: scale(1.1);
   }
 
   @media (max-width: 480px) {  

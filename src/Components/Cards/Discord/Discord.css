@@ -39,24 +39,34 @@
 
 @media (max-width: 1040px) {
     .Discord {
-        width: 250px;
+        width: 700px;
         height: 180px;
-    }
-    .Discord p{
-        font-size: 90%;
     }
 }
 
+@media (max-width: 877px) {
+    .Discord {
+        width: 600px;
+        height: 180px;
+    }
+}
+@media (max-width: 800px) {
+    .Discord {
+        width: 60%;
+        height: 180px;
+    }
+}
+
+
 @media (max-width: 768px) {
     .Discord{
-        
+        width: 50%;
         height: 160px;
     }
 }
 
 @media (max-width: 576px) {
     .Discord {
-        width: 50%;
         height: 150px;
     }
 }

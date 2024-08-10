@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './AboutMe.css';
-import Profile from '../../Images/Profile1.png';
+import Profile from '../../Download/Images/Profile.png';
 import { LeagueContext } from '../../Context/LeagueContext';
 import { ThemeContext } from '../../Context/ThemeContext';
 

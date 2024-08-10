@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import './Phone.css';
 import { ThemeContext } from '../../Context/ThemeContext';
-import iconUrl from '../../Images/IconUrl.png';
-import PhoneImage from '../../Images/Phone.png';
+import iconUrl from '../../Download/Images/IconUrl.png';
+import PhoneImage from '../../Download/Images/Phone.png';
 
 const Phone = () => {
     const { theme } = useContext(ThemeContext);
@@ -18,7 +18,7 @@ const Phone = () => {
             rel="noopener noreferrer"
         >
             <div>
-                <img src={iconUrl} className='iconUrl-Phone' alt="Icon" />
+                <img src={iconUrl} className='iconUrl' alt="Icon" />
             </div>
             <img src={PhoneImage} className='PhoneImage' alt="Phone" />
         </a>

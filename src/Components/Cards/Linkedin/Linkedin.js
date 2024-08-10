@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import './Linkedin.css'; 
 import './../../Global.css';
-import LinkedinIcon from '../../Images/Linkedin.png';
-import iconUrl from '../../Images/IconUrl.png'
+import LinkedinIcon from '../../Download/Images/Linkedin.png';
+import iconUrl from '../../Download/Images/IconUrl.png'
 import { ThemeContext } from '../../Context/ThemeContext';
 
 const Linkedin = () => {

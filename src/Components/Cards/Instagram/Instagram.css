@@ -1,0 +1,21 @@
+.Instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.Instagram-Dark{
+background-color: #DA4583
+}
+
+
+.Instagram-Light{
+    background-color: #f15495;
+}
+.InstagramImage{
+    width: 80%;
+    height: 80%;
+}
