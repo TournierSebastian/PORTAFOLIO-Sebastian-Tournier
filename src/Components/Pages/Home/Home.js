@@ -16,7 +16,10 @@ import Location from '../../Cards/Location/Location'
 import Discord from '../../Cards/Discord/Discord'
 import Instagram from '../../Cards/Instagram/Instagram'
 import Currículum from '../../Cards/Currículum/Currículum'
+
 const Home = () => {
+
+  
   return (
     <div className='Home'>
 
@@ -81,7 +84,6 @@ const Home = () => {
             <Instagram/>
             <Currículum/>
         </div>
-
       </div>
 
     </div>

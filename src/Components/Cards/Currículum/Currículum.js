@@ -11,13 +11,24 @@ const Currículum = () => {
     const { theme } = useContext(ThemeContext);
     const { League } = useContext(LeagueContext);
 
+
+    const content = {
+        es: {
+            curriculum: "Mi Curriculum"
+        },
+        en: {
+            curriculum: "My Curriculum"
+        }
+    };
+    const lang = League === 'EN' ? 'en' : 'es';
+
     return (
         <a
             href={League === 'EN' ? CurriculumPDFEnglish : CurriculumPDF}
             download="SebastianTournier_Curriculum.pdf"
             className={`Currículum ${theme === 'Dark' ? 'Currículum-Dark' : 'Currículum-Light'} Card-Width`}
         >
-            <p>Mi Curriculum</p>
+            <p>{content[lang].curriculum}</p>
             <img src={CurrículumImage} alt="Currículum" className='CurrículumImage' />
 
             <div>
