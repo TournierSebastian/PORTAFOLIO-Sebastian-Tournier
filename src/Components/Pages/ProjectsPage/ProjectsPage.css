@@ -1,0 +1,33 @@
+/* styles.css o el archivo CSS correspondiente */
+
+.ProjectsPage_Title {
+    background-color: #a30ab8d8;
+    padding: 10px;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: 'Patrick Hand', cursive; 
+}
+
+.ProjectsPage h1 {
+    color: white;
+    font-size: 70px;
+    font-family: 'Patrick Hand', cursive; 
+}
+
+.Image_Return {
+    width: 100px;
+    height: 100px;
+}
+
+.Icon_Return {
+    left: 20px;
+    position: absolute;
+}
