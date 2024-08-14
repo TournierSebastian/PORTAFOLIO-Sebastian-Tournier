@@ -43,7 +43,7 @@ const Climate = () => {
     };
 
     const weatherClass = getWeatherClass();
-    const iconUrl = `http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`;
+    const iconclimate = `http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`;
 
     const dateTime = new Date();
     const localTime = dateTime.toLocaleTimeString();
@@ -54,7 +54,7 @@ const Climate = () => {
             <div className="climate-info" >
                 <div style={{ display: 'flex' }}>
                     <h1>{roundedTemp} °C</h1>
-                    <img src={iconUrl} alt={weather.weather[0].description} className="weather-icon" />
+                    <img src={iconclimate} alt={weather.weather[0].description} className="weather-icon" />
                 </div>
                 <h3>{weather.weather[0].description}</h3>
                 <p>{localTime}</p>

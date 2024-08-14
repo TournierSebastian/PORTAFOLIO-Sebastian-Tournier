@@ -11,28 +11,14 @@ body {
 
   }
 .dark-theme {
-    background-color: #5E46EE; 
+  background-color: #1d0141da;  
 }
 
 .light-theme {
-    background-color: rgb(94, 139, 223)
+    background-color: #4b0c9eda
 }
 
 
-.background-1 {
-
-    background: url('./Components/Download/Images/Fondo.gif');
-    background-size: cover;
-  }
-
-.background-2 {
-background-color: #1d0141da;  
-}
-
-.background-3 {
-  background-color: #781ec2; 
-
-}
 
 .background-4 {
   background: url('./Components//Download//Images/Fondo1.gif');

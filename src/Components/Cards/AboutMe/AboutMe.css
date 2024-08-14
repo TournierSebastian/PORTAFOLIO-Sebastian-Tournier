@@ -26,14 +26,14 @@
   }
   
   .Profile-Light {
-    background: linear-gradient(45deg, #575757, #686868, #575757, #686868);
+    background: linear-gradient(45deg, #575757, #838282, #575757, #838282);
     background-size: 600% 600%;
     animation: gradientAnimation 9s ease infinite;
     color: rgb(0, 0, 0);
   }
   
   .Profile-Dark {
-    background: linear-gradient(45deg, #373737, #535353, #373737, #535353);
+    background: linear-gradient(45deg, #252525, #464545, #252525, #464545);
     background-size: 600% 600%;
     animation: gradientAnimation 9s ease infinite;
     color: white;
