@@ -24,6 +24,8 @@
     position: absolute; 
     bottom: 5px; 
     right: 5px; 
+    filter: brightness(50%);
+
 }
 
 .CurrículumImage{

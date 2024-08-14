@@ -1,9 +1,7 @@
-/* styles.css o el archivo CSS correspondiente */
-
 .ProjectsPage_Title {
     background-color: #a30ab8d8;
     padding: 10px;
-    width: 900px;
+    width: 910px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -13,21 +11,109 @@
     margin-top: 30px;
     margin-bottom: 20px;
     position: relative;
-    font-family: 'Patrick Hand', cursive; 
+    font-family: 'Patrick Hand', cursive;
 }
 
 .ProjectsPage h1 {
     color: white;
-    font-size: 70px;
-    font-family: 'Patrick Hand', cursive; 
+    font-size: 4rem; /* Tamaño base, ajustable */
+    font-family: 'Patrick Hand', cursive;
 }
 
 .Image_Return {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    background-image: url('../../Download/Images/Flecha.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+.Image_Return:hover {
+    background-image: url('../../Download/Images/Flecha_Llena.png');
 }
 
 .Icon_Return {
     left: 20px;
-    position: absolute;
+}
+
+.Proyects-Container {
+    display: flex;
+}
+
+@media (max-width: 940px) {
+    .ProjectsPage_Title {
+        width: 98%;
+    }
+}
+
+@media (max-width: 823px) {
+    .ProjectsPage_Title {
+        width: 98%;
+    }
+
+    .ProjectsPage h1 {
+        font-size: 3.5rem; /* Ajuste porcentual */
+    }
+
+    .Image_Return {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 766px) {
+    .ProjectsPage_Title {
+        width: 100%;
+    }
+
+    .Proyects-Container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 560px) {
+
+
+    .ProjectsPage h1 {
+        font-size: 3rem; /* Ajuste porcentual */
+    }
+
+    .Image_Return {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 490px) {
+    .ProjectsPage h1 {
+        font-size: 2.5rem; /* Ajuste porcentual */
+    }
+
+    .Image_Return {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .ProjectsPage h1 {
+        font-size: 2rem; /* Ajuste porcentual */
+    }
+
+    .Image_Return {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 300px) {
+
+
+    .ProjectsPage h1 {
+        font-size: 1.5rem; /* Ajuste porcentual */
+    }
 }
