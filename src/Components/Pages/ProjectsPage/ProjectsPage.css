@@ -76,6 +76,7 @@
          
     }
 
+
     .Proyects-Container {
         flex-direction: column;
         align-items: center;
@@ -126,3 +127,14 @@
         font-size: 1.5rem; /* Ajuste porcentual */
     }
 }
+
+
+
+.Aclaracion {
+    bottom: 0;
+    margin-top: 40px;
+    text-align: end;
+    margin: 10px; 
+    font-size: 10px;
+    color: #fffdfd; 
+  }
