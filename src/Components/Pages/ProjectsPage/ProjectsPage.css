@@ -1,17 +1,17 @@
 .ProjectsPage_Title {
     background-color: #a30ab8d8;
-    padding: 10px;
+    padding: 10px 20px; /* Padding horizontal para separar imagen del texto */
     width: 910px;
     height: 150px;
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 40px;
     margin-top: 30px;
     margin-bottom: 20px;
-    position: relative;
     font-family: 'Patrick Hand', cursive;
+    position: relative;
+    justify-content: center;
 }
 
 .ProjectsPage h1 {
@@ -28,15 +28,19 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: background-image 0.3s ease;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 10px
+  
 }
 
 .Image_Return:hover {
     background-image: url('../../Download/Images/Flecha_Llena.png');
 }
 
-.Icon_Return {
-    left: 20px;
-}
+
 
 .Proyects-Container {
     display: flex;
@@ -46,6 +50,8 @@
     .ProjectsPage_Title {
         width: 98%;
     }
+
+
 }
 
 @media (max-width: 823px) {
@@ -58,19 +64,25 @@
     }
 
     .Image_Return {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
+        top: 30px
     }
 }
 
 @media (max-width: 766px) {
     .ProjectsPage_Title {
         width: 100%;
+         
     }
 
     .Proyects-Container {
         flex-direction: column;
         align-items: center;
+    }
+    .Image_Return {
+        top: 0px;
+        
     }
 }
 
@@ -79,6 +91,7 @@
 
     .ProjectsPage h1 {
         font-size: 3rem; /* Ajuste porcentual */
+       
     }
 
     .Image_Return {
@@ -88,26 +101,22 @@
 }
 
 @media (max-width: 490px) {
-    .ProjectsPage h1 {
-        font-size: 2.5rem; /* Ajuste porcentual */
+    .ProjectsPage_Title {
+        width: 90%;
     }
 
-    .Image_Return {
-        width: 60px;
-        height: 60px;
-    }
+  
 }
 
 @media (max-width: 380px) {
-
+    .ProjectsPage_Title {
+        width: 90%;
+    }
     .ProjectsPage h1 {
-        font-size: 2rem; /* Ajuste porcentual */
+        font-size: 2.4rem; /* Ajuste porcentual */
     }
 
-    .Image_Return {
-        width: 40px;
-        height: 40px;
-    }
+
 }
 
 @media (max-width: 300px) {

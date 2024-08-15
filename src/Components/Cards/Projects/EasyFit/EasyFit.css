@@ -1,93 +1,65 @@
-
 /* ------------------------- Mostrar proyecto ------------------------- */
-.EasyFit_Container {
+.project-container {
     background-color: rgb(38, 36, 39);
     border-radius: 30px;
     width: 300px;
     height: 300px;
-    position: relative; 
-    overflow: hidden; 
+    position: relative;
+    overflow: hidden;
     cursor: pointer;
     box-shadow: 5px 7px 8px rgba(0, 0, 0, 0.5);
     font-family: 'Patrick Hand', cursive; /* Fuente añadida */
     margin-left: 10px;
 }
 
-.EasyFit_Info h3 {
+.project-info h3 {
     color: rgb(216, 216, 216);
     font-size: 25px;
     margin: 10px 0 0 10px;
 }
 
-.EasyFit_Info p {
+.project-info p {
     color: rgb(216, 216, 216);
     margin: 1px;
     padding: 5px;
 }
 
-.EasyFit_Fondo {
+.project-background {
     width: 100%;
     height: 100%;
-    position: absolute; 
-    object-fit: cover; 
-    bottom: 0; 
+    position: absolute;
+    object-fit: cover;
+    bottom: 0;
     left: 0;
-    transition: transform 0.5s ease; 
-    transform-origin: bottom; 
+    transition: transform 0.5s ease;
+    transform-origin: bottom;
 }
 
-.EasyFit_Container:hover .EasyFit_Fondo {
-    object-fit: fill; 
-    transform: scaleX(0.95) scaleY(0.6); 
+.project-container:hover .project-background {
+    object-fit: fill;
+    transform: scaleX(0.95) scaleY(0.6);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
-.EasyFit_TechnologiesContainer {
+.tech-stack {
     display: flex;
 }
 
-.EasyFit_Technologies {
+.tech-item {
     background-color: rgb(148, 69, 201);
     border-radius: 50px;
     margin: 0 5px;
     font-size: 15px;
     text-align: center;
-
 }
 
-.EasyFit_Technologies p {
+.tech-item p {
     color: rgb(209, 205, 205);
     padding: 5px;
 }
 
-.message-content {
-    scrollbar-width: thin; 
-    scrollbar-color: rgb(148, 69, 201) rgb(38, 36, 39);
-}
-
-.message-content h3 {
-    color: rgb(226, 223, 223);
-    margin: 0;
-    padding: 0;
-}
-
-.description {
-    color: rgb(235, 233, 233);
-    font-size: 15px;
-}
-
-.overlay_TechnologiesContainer {
-    display: flex;
-}
-
-/* ------------------------- Fin Proyecto------------------------- */
-
-
-
-
-/* ------------------------- Mostrar info proyecto ------------------------- */
-.message-overlay {
+.overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -96,11 +68,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: 1000; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 }
 
-.message-content {
+.overlay-content {
     width: 500px;
     height: 250px;
     background-color: rgb(38, 36, 39);
@@ -111,10 +83,14 @@
     color: black;
     position: relative;
     border: 7px solid rgb(148, 69, 201);
-    overflow: auto; 
+    overflow: auto;
 }
 
-.overlay_Technologies {
+.overlay-tech-stack {
+    display: flex;
+}
+
+.overlay-tech-item {
     color: rgb(241, 236, 227);
     background-color: rgb(148, 69, 201);
     border-radius: 50px;
@@ -123,93 +99,86 @@
     font-size: 15px;
     padding: 0 15px;
 }
-.Github_EasyFit {
+
+.github-info {
     display: flex;
     align-items: center;
 }
 
-.Github_EasyFit img {
+.github-info img {
     width: 30px;
     height: 20px;
-    
 }
 
-.Github_EasyFit p {
+.github-info p {
     color: rgb(226, 223, 223);
     font-size: 18px;
     margin: 0;
 }
 
-.Link_EasyFit {
+.github-link {
     color: rgb(226, 223, 223);
     font-size: 15px;
 }
 
-.Button_EasyFit {
+.close-button {
     background-color: transparent;
     border: none;
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 15px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
-/* ------------------------- Fin de info proyecto------------------------- */
-
+/* ------------------------- Fin de info proyecto ------------------------- */
 
 /* ------------------------- Scroll-Mensaje ------------------------- */
-.message-content {
-    scrollbar-width: thin; 
+.overlay-content {
+    scrollbar-width: thin;
     scrollbar-color: rgb(148, 69, 201) #4b4848; /* Color del thumb y el fondo del scrollbar */
 }
 
-
-.message-content::-webkit-scrollbar {
+.overlay-content::-webkit-scrollbar {
     width: 12px;
- 
-}
-.message-content::-webkit-scrollbar-track {
-    background: rgb(38, 36, 39); 
 }
 
-.message-content::-webkit-scrollbar-thumb {
-    background: rgb(148, 69, 201); 
-    border-radius: 10px; 
+.overlay-content::-webkit-scrollbar-track {
+    background: rgb(38, 36, 39);
 }
 
-.message-content::-webkit-scrollbar-thumb:hover {
-    background: rgb(100, 50, 150); 
+.overlay-content::-webkit-scrollbar-thumb {
+    background: rgb(148, 69, 201);
+    border-radius: 10px;
 }
-/* ------------------------- Fin de Scroll Scroll-Mensaje ------------------------- */
-@media (max-width: 940px){
 
-    .EasyFit_Container{
+.overlay-content::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 50, 150);
+}
+/* ------------------------- Fin de Scroll-Mensaje ------------------------- */
+
+@media (max-width: 940px) {
+    .project-container {
         width: 50%;
     }
 }
 
-
-
 @media (max-width: 766px) {
-
-    .EasyFit_Container{
-
+    .project-container {
         width: 80%;
         margin-bottom: 20px;
     }
 
-    .EasyFit_Fondo{
-        object-fit: fill; 
-        transform: scaleX(0.95) scaleY(0.6); 
+    .project-background {
+        object-fit: fill;
+        transform: scaleX(0.95) scaleY(0.6);
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 }
 
-
 @media (max-width: 766px) {
-    .EasyFit_Container{
+    .project-container {
         height: 350px;
     }
 }
