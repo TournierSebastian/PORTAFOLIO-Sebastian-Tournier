@@ -119,7 +119,7 @@ const ProjectsPage = () => {
           <Project key={index} {...project} />
         ))}
       </div>
-      <div style={{ marginTop: '20px' }}>
+      <div className='Proyects-Container' style={{marginTop: '20px'}}>
         {content[lang].portafolio.map((project, index) => (
           <Project key={index} {...project} />
         ))}
