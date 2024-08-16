@@ -1,7 +1,6 @@
 
 /* ------------------------- Mostrar proyecto ------------------------- */
 .EasyFit_Container {
-    background-color: rgb(38, 36, 39);
     border-radius: 30px;
     width: 300px;
     height: 300px;
@@ -12,7 +11,14 @@
     font-family: 'Patrick Hand', cursive; /* Fuente añadida */
     margin-right: 20px;
 }
+.EasyFit_Container-Dark{
+    background-color: rgb(38, 36, 39);
 
+}
+.EasyFit_Container-Light{
+    background-color: rgb(38, 36, 39);
+
+}
 .EasyFit_Info h3 {
     color: rgb(216, 216, 216);
     font-size: 25px;
@@ -103,17 +109,24 @@
 .message-content {
     width: 500px;
     height: 250px;
-    background-color: rgb(38, 36, 39);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     font-size: 24px;
     color: black;
     position: relative;
-    border: 7px solid rgb(148, 69, 201);
+    
     overflow: auto; 
 }
+.message-content-Dark{
+    background-color: rgb(38, 36, 39);
+    border: 7px solid rgb(148, 69, 201);
 
+}
+.message-content-Light{
+    background-color: rgb(57, 55, 58);
+    border: 7px solid rgb(169, 83, 226);
+}
 .overlay_Technologies {
     color: rgb(241, 236, 227);
     background-color: rgb(148, 69, 201);
@@ -126,12 +139,14 @@
 .Github_EasyFit {
     display: flex;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .Github_EasyFit img {
     width: 30px;
     height: 20px;
-    
+   
 }
 
 .Github_EasyFit p {
@@ -142,9 +157,14 @@
 
 .Link_EasyFit {
     color: rgb(226, 223, 223);
-    font-size: 15px;
+    font-size: 14px;
+    margin: 0px;
 }
-
+.Link_documentation{
+    color: rgb(226, 223, 223);
+    font-size: 10px;
+    margin: 0px;
+}
 .Button_EasyFit {
     background-color: transparent;
     border: none;
@@ -159,11 +179,14 @@
 
 
 /* ------------------------- Scroll-Mensaje ------------------------- */
-.message-content {
+.message-content-Dark {
     scrollbar-width: thin; 
-    scrollbar-color: rgb(148, 69, 201) #4b4848; /* Color del thumb y el fondo del scrollbar */
+    scrollbar-color: rgb(148, 69, 201) #4b4848; 
 }
-
+.message-content-Light{
+    scrollbar-width: thin; 
+    scrollbar-color: rgb(169, 83, 226) #4b4848; 
+}
 
 .message-content::-webkit-scrollbar {
     width: 12px;
@@ -182,6 +205,11 @@
     background: rgb(100, 50, 150); 
 }
 /* ------------------------- Fin de Scroll Scroll-Mensaje ------------------------- */
+
+
+
+
+
 @media (max-width: 940px){
 
     .EasyFit_Container{

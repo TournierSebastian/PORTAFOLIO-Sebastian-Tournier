@@ -1,5 +1,4 @@
 .ProjectsPage_Title {
-    background-color: #a30ab8d8;
     padding: 10px 20px; /* Padding horizontal para separar imagen del texto */
     width: 910px;
     height: 150px;
@@ -13,7 +12,14 @@
     position: relative;
     justify-content: center;
 }
+.ProjectsPage_Title-Dark{
+    background-color: #a30ab8d8;
 
+}
+.ProjectsPage_Title-Light{
+    background-color: #c647d6d8;
+
+}
 .ProjectsPage h1 {
     color: white;
     font-size: 4rem; /* Tamaño base, ajustable */
