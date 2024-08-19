@@ -28,3 +28,31 @@
 }
 
 
+
+@media (max-width: 1040px){
+    
+    .PhoneImage{
+        width: 80%;
+        height: 68%;   
+    }
+
+}
+
+@media (max-width: 800px){
+    
+    .PhoneImage{
+        width: 70%;
+        height: 70%;   
+    }
+
+}
+
+@media (max-width: 650px){
+    
+    .PhoneImage{
+        width: 70%;
+        height: 60%;   
+    }
+
+
+}

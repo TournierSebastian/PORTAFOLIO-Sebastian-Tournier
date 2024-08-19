@@ -37,13 +37,15 @@
     position: absolute; 
     bottom: 0px; 
     left: 0;
-    object-fit: cover; 
     transition: transform 0.5s ease; 
     transform-origin: bottom; 
+    transform: scale(1.3); /* Aplica un zoom inicial */
+    
+
 }
 
 .EasyFit_Container:hover .EasyFit_Fondo {
-    object-fit: fill; 
+    transform: scale(1); /* Aplica un zoom inicial */
     transform: scaleX(0.95) scaleY(0.6); 
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;

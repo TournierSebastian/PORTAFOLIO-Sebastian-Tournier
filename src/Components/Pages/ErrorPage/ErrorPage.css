@@ -1,0 +1,14 @@
+
+.ButtonErrro404{
+    padding: 15px;
+    background-color: rgb(121, 32, 223);
+    border-radius: 20px;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.ButtonErrro404:hover{
+    transform: scale(1.1);
+}

@@ -28,3 +28,10 @@
 }
 
 
+@media (max-width: 1040px){
+    
+    .EmailImage{
+        width: 70%;
+        height: 60%;    }
+
+}

@@ -16,6 +16,22 @@ background-color: #DA4583
     background-color: #f15495;
 }
 .InstagramImage{
-    width: 80%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
+}
+
+@media (max-width: 800px){
+    
+    .InstagramImage{
+        width: 60%;
+        height: 70%;    }
+
+}
+
+@media (max-width: 400px){
+    
+    .InstagramImage{
+        width: 70%;
+        height: 60%;    }
+
 }
