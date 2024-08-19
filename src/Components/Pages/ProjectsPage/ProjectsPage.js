@@ -106,7 +106,7 @@ const ProjectsPage = () => {
         <a href='/' className='Icon_Return'>
           <div className='Image_Return'> </div>
         </a>
-        <h1>{content[lang].title}</h1>
+        <h1 className={`typing-effect ${theme === 'Dark' ? 'typing-effect-Dark' : 'typing-effect-Light'}`}>{content[lang].title}</h1>
       </div>
       <div className='Proyects-Container'>
         {content[lang].easyfit.map((project, index) => (
