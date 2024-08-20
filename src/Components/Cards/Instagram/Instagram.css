@@ -7,6 +7,9 @@
     position: relative;
 }
 
+.Instagram:hover {
+    transform: scale(1.1);
+  }
 .Instagram-Dark{
 background-color: #DA4583
 }
