@@ -69,6 +69,10 @@
 .misty{
   background-color: rgb(92, 92, 92);
 }
+.thunderstorm{
+  background-color: rgb(67, 70, 116);
+
+}
 
 @media (max-width: 1040px) {
   .climate-container {
