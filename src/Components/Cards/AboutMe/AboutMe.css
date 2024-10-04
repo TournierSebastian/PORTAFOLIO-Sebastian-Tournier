@@ -44,13 +44,16 @@
     align-items: flex-end; 
   }
   
-.Profile_img {
-    margin-right: 10px; 
-    max-width: 300px; 
-    max-height: 200px; 
+  .Profile_img {
+    max-width: 250px; 
+    max-height: 180px; 
     border-radius: 28px;
-  }
-  
+    margin-right: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para relieve */
+}
+
+
+
 .Profile-Title h1 {
     font-size: 50px;
     margin: 0px;

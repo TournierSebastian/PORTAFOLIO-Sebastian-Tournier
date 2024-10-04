@@ -8,7 +8,7 @@ const Email = () => {
     const { theme } = useContext(ThemeContext);
 
     return (
-        <a href="mailto:sebastian.tournier@gmail.com" className={`Email ${theme === 'Dark' ? 'Email-Dark' : 'Email-Light'} Card-Width`} >
+        <a href=" " className={`Email ${theme === 'Dark' ? 'Email-Dark' : 'Email-Light'} Card-Width`} >
             <div>
                 <img src={iconUrl} className='iconUrl' alt="Icon"></img>
             </div>
