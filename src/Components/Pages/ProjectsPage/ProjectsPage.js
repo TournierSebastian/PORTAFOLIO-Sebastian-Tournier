@@ -5,6 +5,9 @@ import FondoEasyFit from './../../Download/Images/easyfit.png';
 import FondoEpicWear from './../../Download/Images/EpicWear.png';
 import FondoFamilyMarket from './../../Download/Images/FamilyMarket.png';
 import FondoPortafolio from './../../Download/Images/Portafolio.png';
+import Planify from './../../Download/Images/Planify.png'
+import SupermercadoLaEstancia from './../../Download/Images/Supermercado.png';
+
 import { ThemeContext } from '../../Context/ThemeContext';
 import { LeagueContext } from '../../Context/LeagueContext';
 
@@ -53,7 +56,27 @@ const ProjectsPage = () => {
           githubUrl: 'https://github.com/TournierSebastian/PORTAFOLIO-Sebastian-Tournier',
           backgroundImage: FondoPortafolio
         }
+      ],
+      SupermercadoLaEstancia: [
+        {
+          title: 'La Estancia',
+          Description: `Desarrollamos una página web para un supermercado en un equipo de 4 personas, utilizando HTML, CSS, JavaScript, Bootstrap y Bootswatch. Este proyecto me permitió mejorar mis habilidades en la gestión de proyectos con Trello y en el diseño de interfaces con Figma.`,
+          techStack: ['Hmtl', 'Js', 'Css', 'Bootstrap', 'Bootswatch'],
+          githubUrl: 'https://github.com/Ulimb/Bootcamp_Full-Stack',
+          backgroundImage: SupermercadoLaEstancia,
+          Pageweb: 'https://bootcamp-full-stack.vercel.app/semana-6/proyecto/Pages/Home/Home.html'
+        }
+      ],
+      Planify: [
+        {
+          title: 'Planify',
+          Description: `Desarrollaron en equipo una página web básica con un estilo similar a Trello, la cual incluye diversas funcionalidades con implementación de base de datos. Este proyecto permitió al usuario mejorar sus conocimientos en Express.js y Node.js.`,
+          techStack: ['React.js', 'Expres.js', 'Bootstrap', 'Mysql'],
+          githubUrl: 'https://github.com/cesarl94/planify',
+          backgroundImage: Planify,
+        }
       ]
+
     },
     en: {
       title: "My Projects",
@@ -94,6 +117,25 @@ const ProjectsPage = () => {
           githubUrl: 'https://github.com/TournierSebastian/PORTAFOLIO-Sebastian-Tournier',
           backgroundImage: FondoPortafolio
         }
+      ],
+      SupermercadoLaEstancia: [
+        {
+          title: 'The Estancia',
+          Description: `We developed a website for a supermarket as part of a team of 4 people, using HTML, CSS, JavaScript, Bootstrap, and Bootswatch. This project allowed me to improve my skills in project management with Trello and interface design with Figma.`,
+          techStack: ['Hmtl', 'Js', 'Css', 'Bootstrap', 'Bootswatch'],
+          githubUrl: 'https://github.com/Ulimb/Bootcamp_Full-Stack',
+          backgroundImage: SupermercadoLaEstancia,
+          Pageweb: 'https://bootcamp-full-stack.vercel.app/semana-6/proyecto/Pages/Home/Home.html'
+        }
+      ],
+      Planify: [
+        {
+          title: 'Planify',
+          Description: `They developed a basic website as a team with a style similar to Trello, which includes various functionalities with database implementation. This project allowed the user to improve their knowledge of Express.js and Node.js.`,
+          techStack: ['React.js', 'Expres.js', 'Bootstrap', 'Mysql'],
+          githubUrl: 'https://github.com/cesarl94/planify',
+          backgroundImage: Planify,
+        }
       ]
     }
   };
@@ -123,7 +165,15 @@ const ProjectsPage = () => {
         {content[lang].portafolio.map((project, index) => (
           <Project key={index} {...project} />
         ))}
+         {content[lang].SupermercadoLaEstancia.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
+         {content[lang].Planify.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
       </div>
+
+      
       <p className='Aclaracion'>{content[lang].clarification}</p>
     </div>
   );

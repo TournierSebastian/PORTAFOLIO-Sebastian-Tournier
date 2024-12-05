@@ -3,7 +3,7 @@ import './Project.css'; // Asegúrate de tener este archivo CSS
 import GitHubIcon from '../../../Download/Images/GitHubIconBlack.png';
 import { ThemeContext } from '../../../Context/ThemeContext';
 
-const Project = ({ title, Description, techStack, githubUrl, backgroundImage, documentationUrl }) => {
+const Project = ({ title, Description, techStack, githubUrl, backgroundImage, documentationUrl, Pageweb }) => {
     const [showMessage, setShowMessage] = useState(false);
     const { theme } = useContext(ThemeContext);
 
@@ -44,6 +44,17 @@ const Project = ({ title, Description, techStack, githubUrl, backgroundImage, do
                         </div>
                         <a href={githubUrl} target='_blank' className='Link_EasyFit'>{githubUrl}</a>
 
+
+
+                        {Pageweb && (
+                            <div className='Github_EasyFit'>
+                                <div>
+                                <p>Page WeB:</p>
+                                <a href={Pageweb} className='Link_documentation' target='_blank' rel='noopener noreferrer'>{Pageweb}</a>
+                                </div>
+                            </div>
+                        )}
+
                         {documentationUrl && (
                             <div className='Github_EasyFit'>
                                 <div>
@@ -52,6 +63,9 @@ const Project = ({ title, Description, techStack, githubUrl, backgroundImage, do
                                 </div>
                             </div>
                         )}
+
+                        
+              
                     </div>
                 </div>
             )}
