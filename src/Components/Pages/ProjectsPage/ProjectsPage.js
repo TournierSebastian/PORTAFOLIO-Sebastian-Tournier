@@ -70,7 +70,7 @@ const ProjectsPage = () => {
       Planify: [
         {
           title: 'Planify',
-          Description: `Desarrollaron en equipo una página web básica con un estilo similar a Trello, la cual incluye diversas funcionalidades con implementación de base de datos. Este proyecto permitió al usuario mejorar sus conocimientos en Express.js y Node.js.`,
+          Description: `Desarrollamos en equipo un mvp básico con un estilo similar a Trello, la cual incluye diversas funcionalidades con implementación de base de datos. Este proyecto me permitio expandir mis conocimientos a Express.js y Node.js.`,
           techStack: ['React.js', 'Expres.js', 'Bootstrap', 'Mysql'],
           githubUrl: 'https://github.com/cesarl94/planify',
           backgroundImage: Planify,
@@ -131,7 +131,7 @@ const ProjectsPage = () => {
       Planify: [
         {
           title: 'Planify',
-          Description: `They developed a basic website as a team with a style similar to Trello, which includes various functionalities with database implementation. This project allowed the user to improve their knowledge of Express.js and Node.js.`,
+          Description: `We developed a basic MVP as a team with a style similar to Trello, including various functionalities with database implementation. This project allowed me to expand my knowledge in Express.js and Node.j`,
           techStack: ['React.js', 'Expres.js', 'Bootstrap', 'Mysql'],
           githubUrl: 'https://github.com/cesarl94/planify',
           backgroundImage: Planify,

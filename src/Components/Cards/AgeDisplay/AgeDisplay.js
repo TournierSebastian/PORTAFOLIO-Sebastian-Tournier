@@ -11,7 +11,7 @@ const AgeDisplay = () => {
   useEffect(() => {
     let currentAge = 0;
     const interval = setInterval(() => {
-      if (currentAge < 21) {
+      if (currentAge < 22) {
         currentAge++;
         setAge(currentAge);
       } else {
